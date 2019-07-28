@@ -1,7 +1,7 @@
 struct SwiftPackage1 {
-    var text = "Swift Package with tag of 1.0.3!!"
-    open public func getText() -> String {
-        return text
+    var text = "SwiftPackage1 - 1.0.4!!"
+    public func getText() -> String {
+        return self.text
     }
 }
 
